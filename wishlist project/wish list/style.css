@@ -1,0 +1,120 @@
+@import url("https://uilight.netlify.app/main.css");
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons+Outlined");
+
+:root {
+  --text-color-primary: #f9fafb;
+  --background-color: #111827;
+}
+
+body {
+  background-color: var(--background-color);
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.main {
+  padding: 2rem 1rem;
+  max-width: 600px;
+  margin: auto;
+}
+
+.heading-1 {
+  color: white;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.todo-form {
+  display: flex;
+  gap: 1rem;
+  margin-left: 30px;
+  flex-wrap: wrap; 
+}
+
+.input {
+  flex: 1;
+  border-radius: 4px;
+  font-size: 1.1rem;
+  padding: 0.5rem;
+  border: none;
+  min-width: 200px;
+}
+
+.input:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px #fd22d1f9;
+}
+
+.btn-primary {
+  font-size: 1.1rem;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  background-color: #f90909f9;
+  border: none;
+  color: white;
+  border-radius: 4px;
+}
+.todo {
+  color: var(--text-color-primary);
+  font-size: 1.25rem;
+  margin: 0.1rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.todo-text {
+  flex: 1;
+  margin-left: 1rem;
+  word-wrap: break-word;
+}
+
+.checked-todo {
+  text-decoration: line-through;
+  opacity: 0.6;
+}
+
+.todos-container {
+  max-height: 70vh;
+  overflow-y: auto;
+  margin-left: 30px;
+}
+
+.t-checkbox {
+  width: 20px;
+  height: 20px;
+}
+
+.del-btn {
+  color: var(--text-color-primary);
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+@media (max-width: 600px) {
+  .todo-form {
+    flex-direction: column;
+    align-items: center; 
+    margin-left: 30px;
+    gap: 0.5rem;
+  }
+
+  .input {
+    width: 100%;
+    max-width: 300px;
+  }
+
+  .btn-primary {
+    width: fit-content;
+    padding: 0.4rem 1rem;
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  .todos-container {
+    margin-left: 30px;
+  }
+}
