@@ -1,0 +1,121 @@
+@import url("https://uilight.netlify.app/main.css");
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons+Outlined");
+
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrfSdWv9tWkffTLjNiqRzxa0uOsPVH1SANCw');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.heading-1 {
+  color: #fff;
+  text-shadow: 1px 1px 4px #000;
+  margin: 2rem 0 1rem 0;
+  font-size: 2rem;
+}
+
+.form {
+  background-color: rgba(255, 255, 255, 0.95);
+  padding: 2rem;
+  border-radius: 1rem;
+  width: 90%;
+  max-width: 400px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+.input {
+  width: 100%;
+  font-size: 1rem;
+  padding: 0.75rem;
+  border: 1px solid #85d7f5;
+  border-radius: 4px;
+}
+
+.input:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px #71e2fb;
+}
+
+.gutter-small {
+  padding: 0.5rem 0;
+}
+
+.error {
+  border: 2px solid red;
+}
+
+.error:focus {
+  outline: 2px solid red;
+}
+
+.d-none {
+  display: none;
+}
+
+.relative {
+  position: relative;
+}
+
+.btn {
+  position: absolute;
+  top: 2.8rem;
+  right: 8px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.button {
+  width: 100%;
+  padding: 0.75rem;
+  font-size: 1rem;
+  background-color: #099e0e;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #05f91a;
+}
+
+.ul {
+  list-style-type: disc;
+  margin-left: 1rem;
+  font-size: 0.9rem;
+}
+
+.list {
+  color: red;
+}
+
+.error-message,
+.empty-field {
+  color: red;
+  font-size: 0.85rem;
+  margin-top: 0.25rem;
+}
+
+.display-flex {
+  display: flex;
+}
+
+.direction-column {
+  flex-direction: column;
+}
+
+.gap {
+  gap: 4px;
+}
