@@ -26,7 +26,7 @@ You can view the live version of my wishlist project here:
 
 📖 How to use
 1.Type your wishlist item in the box
-
+https://github.com/venkata-kalavathi-kilari/WishList/blob/2d130afe919cf01861075cffedfbf006fb83137c/2025-08-11.png
 2.Click the "Add" button to add it to the list
 3.Tick the checkbox to mark it done
 https://github.com/venkata-kalavathi-kilari/WishList/blob/a11eeea3b5a77737a6e1d40ade0fff1e1a3980e6/2025-08-11.png
