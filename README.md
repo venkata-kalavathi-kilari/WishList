@@ -29,6 +29,7 @@ You can view the live version of my wishlist project here:
 
 2.Click the "Add" button to add it to the list
 3.Tick the checkbox to mark it done
+https://github.com/venkata-kalavathi-kilari/WishList/blob/a11eeea3b5a77737a6e1d40ade0fff1e1a3980e6/2025-08-11.png
 4.Click the delete icon 🗑 to remove it
 The list will stay there until you clear it yourself
 
