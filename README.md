@@ -32,7 +32,7 @@ https://github.com/venkata-kalavathi-kilari/WishList/blob/2d130afe919cf01861075c
 
 3.Tick the checkbox to mark it done
 
-https://github.com/venkata-kalavathi-kilari/WishList/blob/a11eeea3b5a77737a6e1d40ade0fff1e1a3980e6/2025-08-11.png
+https://github.com/venkata-kalavathi-kilari/WishList/blob/a11eeea3b5a77737a6e1d40ade0fff1e1a3980e6/Screenshot%202025-08-11%20114114.png?raw=true
 
 4.Click the delete icon 🗑 to remove it
 
